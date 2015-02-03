@@ -7,6 +7,9 @@
 '
 'It will create a new local access table with name same as your inputted dbftablename
 '
+'You can run this without referencing ADO Library
+'
+
 
 Function ImportDBF(ByVal dbfFileDir As String, _
                     ByVal dbfTableName As String)
