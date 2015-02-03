@@ -5,6 +5,8 @@
 '    ImportDBF "C:\CustomDBFTablesDirectory", "DB_TABLENAME"
 'End Sub
 '
+'It will create a new local access table with name same as your inputted dbftablename
+'
 
 Function ImportDBF(ByVal dbfFileDir As String, _
                     ByVal dbfTableName As String)
